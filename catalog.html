@@ -27,15 +27,69 @@
 
     <main class="container">
       <h1 class="page-title">Средства для ухода</h1>
-      <ul class="breadcrumps">
+      <ul class="breadcrumbs">
         <li><a href="index.html">Главная</a></li>
         <li><a href="catalog.html">Магазин</a></li>
-        <li class="breadcrumps-current">Средства для ухода</li>
+        <li class="breadcrumbs-current">Средства для ухода</li>
       </ul>
 
       <section class="filters">
         <h2 class="visually-hidden">Фильтры товаров</h2>
-        <!-- Здесь могла быть ваша форма -->
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <fieldset>
+            <legend>Производители:</legend>
+            <ul>
+              <li>
+                <input type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" checked>
+                <label for="filter-baxter-of-california">Baxter of California</label>
+              </li>
+              <li>
+                <input type="checkbox" name="mr-natty" id="filter-mr-natty">
+                <label for="filter-mr-natty">Mr Natty</label>
+              </li>
+              <li>
+                <input type="checkbox" name="suavecito" id="filter-suavecito" checked>
+                <label for="filter-suavecito">Suavecito</label>
+              </li>
+              <li>
+                <input type="checkbox" name="malin-goetz" id="filter-malin-goetz">
+                <label for="filter-malin-goetz">Malin+Goetz</label>
+              </li>
+              <li>
+                <input type="checkbox" name="myrrays" id="filter-murrays">
+                <label for="filter-murrays">Murray’s</label>
+              </li>
+              <li>
+                <input type="checkbox" name="american-crew" id="filter-american-crew" checked>
+                <label for="filter-american-crew">American Crew</label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset>
+            <legend>Группы товаров:</legend>
+            <ul>
+              <li>
+                <label for="shaving-accessories">
+                <input id="shaving-accessories" type="radio" name="product-groups">
+                Бритвенные принадлежности
+                </label>
+              </li>
+              <li>
+                <label for="care-products">
+                  <input id="care-products" type="radio" name="product-groups" checked>
+                  Средства для ухода
+                </label>
+              </li>
+              <li>
+                <label for="accessories">
+                  <input id="accessories" type="radio" name="product-groups">
+                  Аксессуары
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit">Показать</button>
+        </form>
       </section>
 
       <section class="catalog">
@@ -55,7 +109,7 @@
             </p>
             <p class="catalog-item-price">
               <b>2 900 ₽</b>
-              <a class="button" href="#">Купить</a>
+              <a class="button" href="catalog-item.html">Купить</a>
             </p>
           </li>
           <li class="catalog-item">
@@ -173,10 +227,24 @@
     </footer>
 
     <section class="modal modal-login">
-      <h2>Личный кабиинет</h2>
+      <h2>Личный кабинет</h2>
       <p>Введите свой логин и пароль.</p>
-      <!-- Здесь могла быыть ваша форма -->
-      <span class="modal-close">x</span>
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <p>
+          <label for="user-login">Логин</label>
+          <input id="user-login" type="text" name="login" value="" placeholder="Логин"></p>
+        <p>
+          <label for="user-password">Пароль</label>
+          <input id="user-password" type="text" name="password" value="" placeholder="Пароль">
+        </p>
+        <p>
+          <input id="login-password-info" type="checkbox" name="remember" checked>
+          <label for="login-password-info">Запомните меня</label>
+          <a href="#">Я забыл пароль!</a>
+        </p>
+        <button type="submit">Войти</button>
+      </form>
+      <button type="button">Закрыть</button>
     </section>
   </body>
 </html>

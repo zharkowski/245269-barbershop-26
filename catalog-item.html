@@ -27,22 +27,22 @@
 
   <main class="container">
     <h1>Набор для путешествий «Baxter of California»</h1>
-    <ul class="breadcrumps">
+    <ul class="breadcrumbs">
       <li><a href="index.html">Главная</a></li>
       <li><a href="catalog.html">Магазин</a></li>
       <li><a href="catalog.html">Средства для ухода</a></li>
-      <li class="breadcrumps-current">Набор для путешествий «Baxter of California»</li>
+      <li class="breadcrumbs-current">Набор для путешествий «Baxter of California»</li>
     </ul>
 
     <section class="product-photos">
       <h2 class="visually-hidden">Изображения товара</h2>
       <p class="product-photo-full">
-        <img src="img/product-big.jpg" width="460" height="498" alt="Фотография всего набора">
+        <img src="img/product-big.jpg" width="460" height="498" alt="Большая фоторгафия набора спереди">
       </p>
       <ul class="product-photo-preview">
-        <li class="gallery-item"><img src="img/product-small-1.jpg" width="140" height="149" alt="Фоторафия 1"></li>
-        <li class="gallery-item"><img src="img/product-small-2.jpg" width="140" height="149" alt="Фоторафия 2"></li>
-        <li class="gallery-item"><img src="img/product-small-3.jpg" width="140" height="149" alt="Фоторафия 3"></li>
+        <li class="gallery-item"><img src="img/product-small-1.jpg" width="140" height="149" alt="Маленькая фоторгафия набора"></li>
+        <li class="gallery-item"><img src="img/product-small-2.jpg" width="140" height="149" alt="Фоторафия только сумки"></li>
+        <li class="gallery-item"><img src="img/product-small-3.jpg" width="140" height="149" alt="Маленькая фоторгафия набора"></li>
       </ul>
     </section>
 
@@ -93,10 +93,24 @@
   </footer>
 
   <section class="modal modal-login">
-    <h2>Личный кабиинет</h2>
+    <h2>Личный кабинет</h2>
     <p>Введите свой логин и пароль.</p>
-    <!-- Здесь могла быыть ваша форма -->
-    <span class="modal-close">x</span>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label for="user-login">Логин</label>
+        <input id="user-login" type="text" name="login" value="" placeholder="Логин"></p>
+      <p>
+        <label for="user-password">Пароль</label>
+        <input id="user-password" type="text" name="password" value="" placeholder="Пароль">
+      </p>
+      <p>
+        <input id="login-password-info" type="checkbox" name="remember" checked>
+        <label for="login-password-info">Запомните меня</label>
+        <a href="#">Я забыл пароль!</a>
+      </p>
+      <button type="submit">Войти</button>
+    </form>
+    <button type="button">Закрыть</button>
   </section>
 </body>
 </html>

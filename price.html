@@ -27,9 +27,9 @@
 
   <main class="container">
     <h1>Прайс-лист</h1>
-    <ul class="breadcrumps">
+    <ul class="breadcrumbs">
       <li><a href="index.html">Главная</a></li>
-      <li class="breadcrumps-current">Прайс-лист</li>
+      <li class="breadcrumbs-current">Прайс-лист</li>
     </ul>
     <span>Истинно мужская классика</span>
 
@@ -90,5 +90,26 @@
       <b>Разработано:</b> <a class="button" href="https://htmlacademy.ru">HTML Academy</a>
     </p>
   </footer>
+
+  <section class="modal modal-login">
+    <h2>Личный кабинет</h2>
+    <p>Введите свой логин и пароль.</p>
+    <form action="https://echo.htmlacademy.ru" method="post">
+      <p>
+        <label for="user-login">Логин</label>
+        <input id="user-login" type="text" name="login" value="" placeholder="Логин"></p>
+      <p>
+        <label for="user-password">Пароль</label>
+        <input id="user-password" type="text" name="password" value="" placeholder="Пароль">
+      </p>
+      <p>
+        <input id="login-password-info" type="checkbox" name="remember" checked>
+        <label for="login-password-info">Запомните меня</label>
+        <a href="#">Я забыл пароль!</a>
+      </p>
+      <button type="submit">Войти</button>
+    </form>
+    <button type="button">Закрыть</button>
+  </section>
 </body>
 </html>
