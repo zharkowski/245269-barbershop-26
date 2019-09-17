@@ -1,0 +1,315 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #000000;
+  background-image: url("../img/background.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.inner-page {
+  color: #000000;
+
+  background-color: #faf7f4;
+  background-image: url("../img/light-background.png");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: #000000;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus,
+.breadcrumbs a:active {
+  text-decoration: underline;
+}
+
+.breadcrumbs-current {
+  color: #aba9a7;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.site-navigation a,
+.user-navigation a {
+  color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  background-color: #242424;
+}
+
+.advantages-list {
+  list-style: none;
+}
+
+.advantages-item {
+  text-align: center;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.advantages-item h3 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.index-columns {
+  color: #000000;
+  background-color: #faf7f4;
+  background-image: url("../img/light-background.png");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.index-columns h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.news-item time {
+  text-transform: none;
+}
+
+.gallery-content {
+  background-color: #e5e5e5;
+  border: 7px solid #ffffff;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: #000000;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #663d15;
+}
+
+.appointment-item input {
+  font: inherit;
+
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+
+.appointment-item input:focus {
+  border: 2px solid #663d15;
+}
+
+.main-footer {
+  color: #ffffff;
+
+  background-color: #232323;
+  background-image: url("../img/footer-background.png");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.main-footer a:hover,
+.main-footer a:focus,
+.main-footer a:active {
+  text-decoration: none;
+}
+
+.socials {
+  text-align: center;
+}
+
+.socials-list a {
+  color: #ffffff;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+.footer-copyright a {
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus,
+.footer-copyright a:active {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.modal {
+  color: #000000;
+
+  background-color: #faf7f4;
+  background-image: url("../img/light-background.png");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.modal h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.modal-login input[type="text"],
+.modal-login input[type="password"] {
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+
+.modal-login input:focus {
+  border: 2px solid #663d15;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus,
+.login-checkbox:active{
+  color: #663d15;
+}
+
+.forgot-password {
+  color: #000000;
+
+  text-decoration: underline;
+}
+
+.forgot-password:hover,
+.forgot-password:focus,
+.forgot-password:active {
+  text-decoration: none;
+}
+
+.product-photo-full {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-photo-preview li {
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-article {
+  color: #aeaeae;
+}
+
+.catalog-item-price b {
+  color: #000000;
+
+  background-color: #e5e5e5;
+}
+
+.product-info h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.slogan {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.prices-table {
+  border-collapse: collapse;
+}
+
+.prices-table td {
+  border: 2px solid #000000;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.filters label:hover,
+.filters label:focus {
+  color: #663d15;
+}
+
+.filters label:disabled {
+  color: #000000;
+
+  opacity: 0.5;
+}
+
+.catalog-category {
+  text-transform: none;
+}
+
+.catalog-list li {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-list li:hover {
+  background-color: #ffffff;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.pagination-item a{
+  color: #ffffff;
+
+  background-color: #000000;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a:active {
+  background-color: #663d15;
+}
+
+.pagination-item-current span{
+  color: #000000;
+  background-color: #ffffff;
+}
